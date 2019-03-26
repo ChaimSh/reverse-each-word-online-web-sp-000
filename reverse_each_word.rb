@@ -12,4 +12,5 @@ first_array = sentence.split(" ")
 first_array.collect do |sentence|
 sentence.reverse
 end
+first_array.join(" ")
 end
