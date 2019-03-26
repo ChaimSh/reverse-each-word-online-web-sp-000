@@ -6,3 +6,10 @@ new_array << sentence.reverse
 end
 new_array.join(" ")
 end
+
+def reverse_each_word(sentence)
+first_array = sentence.split(" ")
+first_array.collect do |sentence|
+sentence.reverse
+end
+end
