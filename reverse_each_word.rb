@@ -4,5 +4,5 @@ new_array = []
 first_array.each do |sentence|
 new_array << sentence.reverse
 end
-new_array
+new_array.join(" ")
 end
